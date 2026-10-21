@@ -20,6 +20,9 @@ board.speed("fastest")
 board.hideturtle()
 
 # PART 3 - OUTER COLOR SPIRAL (MOVEMENT + LOOPS + COLOR)
+
+# SPIRAL WILL BE CREATED WITH THIS FOR LOOP
+
 # forward(n) moves the turtle forward n pixels.
 # right(91) turns it 91 degrees -- 1 degree extra creates the spiral drift!
 # The for loop repeats 80 times, growing the distance each round.
@@ -32,6 +35,7 @@ for i in range(80):
     board.right(91)
 
 # PART 4 - PEN CONTROL: MOVE TO CENTER AND DRAW A FILLED STAR
+
 # penup() lifts the pen so moving doesn't draw a line.
 # goto(0, 0) teleports the turtle to the exact center of the canvas.
 # pendown() puts the pen back on the canvas -- drawing starts again.
