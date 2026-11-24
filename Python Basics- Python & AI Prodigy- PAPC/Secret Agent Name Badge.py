@@ -1,3 +1,4 @@
+
 # PART 1: Ask the agent for their details
 name = input("Enter your real name, Agent: ")
 gadget = input("Enter your favorite gadget: ")
@@ -30,7 +31,7 @@ print("Speed Rating as text:", speed_rating_text, "-> type:", type(speed_rating_
 print("Status as text:", status_text, "-> type:", type(status_text))
 
 # PART 5: Slice the name to create a secret code name
-first_three = name[0:3]
+first_three = name[0:3]  # 0 1 2 
 last_letter = name[-1:]
 code_name = first_three + last_letter
 print("First 3 letters of name:", first_three)

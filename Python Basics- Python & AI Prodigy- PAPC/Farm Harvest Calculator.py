@@ -18,10 +18,10 @@ average = total / 5
 print("Total harvest      :", total, "kg")
 print("Average per field  :", average, "kg")
 
-# Price per kg is 15 rupees — calculate total earnings
+# Price per kg is 15 Riyal — calculate total earnings
 price_per_kg = 15
 earnings = total * price_per_kg
-print("Total earnings     : Rs.", earnings)
+print("Total earnings     : Riyal.", earnings)
 
 # --- Floor Division (//) and Modulus (%) ---
 # Pack the harvest into bags of 25 kg each

@@ -1,3 +1,4 @@
+
 #Print a Sentence 
 print("Welcome to the world of programming!")
 
@@ -8,7 +9,7 @@ print(4)
 print("Hello Python \n")
 
 #Pass multiple arguments for printing
-print("hello",5)
+print("hello",  5)
 
 #End argument of Print Statement
 print("welcome to ", end= "*")
