@@ -12,7 +12,7 @@ print("  1 - Bike")
 print("  2 - Car")
 print()
 
-choice = int(input("Enter 1 or 2: "))
+choice = int(input("Enter 1 or 2: ")) 
 print()
 
 if choice == 1:
